@@ -25,19 +25,27 @@ mocha --recursive -g “Test-2” /directory/
 mocha –-help
 
 
+
+
+
 //Creating a project 
 $ mkdir mocha-chai-tests
+
 $ cd mocha-chai-tests
+
 $ yarn init
 or 
 $ npm init -y
 
 //Install chai and mocha.
+
 $ yarn add chai mocha
 or 
 $ npm i chai mocha --save
 
+
 $ mkdir tests
+
 $ touch tests/calc.js
 
 
